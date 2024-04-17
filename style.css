@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(155, 184, 154);
+}
+
+#panel{
+    height: 80%;
+    width: 80%;
+    background-color: rgb(226, 231, 226);
+    border-radius: 10px;
+    overflow: hidden;
+}
+#ptop{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(36, 70, 33);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+    
+}
+.elem{
+    display: flex;
+    /* border: 1px solid black; */
+    gap: 20px;
+    align-items: center;
+
+}
+.elem h4{
+    font-size: 20px;
+    color: white;
+}
+
+.box{
+    padding: 20px;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(227, 224, 224);
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+
+}
+
+
+@media (max-width:600px) {
+    
+    .box{
+        padding: 10px;
+        height: 25px;
+        width: 25px;
+        background-color: rgb(227, 224, 224);
+        border-radius: 5px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .elem{
+        display: flex;
+        gap: 5px;
+        align-items: center; 
+    }
+
+    .elem h4{
+        font-size: 18px;
+        color: white;
+    }
+}
+
+
+#pbtm{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bubble{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(28, 112, 64);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+
+.bubble:hover{
+    background-color: rgb(37, 71, 30);
+    
+}
+
+#pbtm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blur{
+    background-color: rgba(27, 132, 224, 0.39);
+}
