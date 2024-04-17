@@ -1,6 +1,6 @@
 var timerval = document.querySelector("#timer");
 var pbtm =document.querySelector("#pbtm");
-var time = 30;
+var time = 45;
 var score=0;
 var rn=0;
 function updateScore(){
